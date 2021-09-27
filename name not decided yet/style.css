@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body::before{
+    background: url('bg.jpg')no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    opacity: 0.7;
+    z-index: -1;
+    background-size: cover;
+}
+
+
+.container{
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 20px;
+    background-color: white;
+    top: 27%;
+    left: 52%;
+}
+
+.container h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 28px 36px;
+    font-family: 'Gluten', cursive;
+}
+
+.box1{
+    padding: 25px;
+}
+
+.inputt input{
+    outline: none;
+    width: 95%;
+    margin: 11px 9px;
+    /* padding: 0px 35px; */
+    font-size: 25px;
+}
+
+.box1 button{
+    width: 414px;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 12px 10px;
+    background-color: #db7c8d;
+}
+
+.box2{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 button{
+    width: 414px;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 12px 10px;
+    background-color: #db7c8d;
+}
+
+.box2 p{
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.box2 p a{
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #db7c8d;
+}
