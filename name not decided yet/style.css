@@ -37,9 +37,14 @@ body::before{
     padding: 25px;
 }
 
+.inputt{
+    margin-left: 11px;
+    width: 82%;
+}
+
 .inputt input{
     outline: none;
-    width: 95%;
+    width: 115%;
     margin: 11px 9px;
     /* padding: 0px 35px; */
     font-size: 25px;
